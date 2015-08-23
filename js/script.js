@@ -3,6 +3,7 @@ $(document).ready(function(){
 	var keys = ['f','g','h','j'];
 	$(document).keypress(function(event){
 		var selectedKey= String.fromCharCode(event.which).toLowerCase();
+		console.log(selectedKey);
 		var index = keys.indexOf(selectedKey);
 		if (index >= 0){
 			console.log(index);
@@ -11,10 +12,9 @@ $(document).ready(function(){
 			else
 				;//console.log("False!!!");
 		}
-		
 	});
 	
-	var seq= getRandomSequence(4);
+	var seq= getRandomSequence(12);
 	console.log(seq);
 	var delay = 2500;
 	var clearDelay = 500;
