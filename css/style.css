@@ -1,8 +1,8 @@
 .stars{
-	width: 200px;
-	height: 50px;
-	margin-top: -25px;
-	margin-left: -100px;
+	width: 400px;
+	height: 140px;
+	margin-top: -70px;
+	margin-left: -200px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -14,6 +14,6 @@
 	width: 24%;
 	border: 1px solid #ddd;
 	text-align: center;
-	vertical-align: middle;
-	font-size: 30px;
+	vertical-align: bottom;
+	font-size: 100px;
 }
