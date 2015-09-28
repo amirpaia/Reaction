@@ -17,3 +17,6 @@
 	vertical-align: bottom;
 	font-size: 100px;
 }
+.timesheet, #show{
+	display:none;
+}
