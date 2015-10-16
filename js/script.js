@@ -25,7 +25,7 @@ $(document).ready(function(){
 	
 	
 	$(document).keypress(function(event){
-		if (event.which == 32){
+		if (event.which == 49){
 			clearStars();
 			start();
 		}
@@ -100,7 +100,8 @@ $(document).ready(function(){
 			console.log('Start Block ' + blockIndex + " : " + timestamp);
 			$('.timesheet').append('Start Block ' + blockIndex + " : " + timestamp +"<br/>");
 		}
-		console.log(cursor + " - " + keys[value-1]+ " : " + timestamp);
+		//console.log(cursor + " - " + keys[value-1]+ " : " + timestamp);
+		console.log(timestamp);
 		$('.timesheet').append(cursor + " - " + keys[value-1]+ " : " + timestamp + "<br/>");
 		
 		$('.stars span').eq(value-1).text('*');
